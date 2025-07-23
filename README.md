@@ -14,6 +14,7 @@ This plugin allows you to run `jq` queries on your JSON content directly within 
 ## ✅ Requirements
 
 *   `jq` installed and available in your `PATH`.
+*   [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) for completion in the command buffer.
 
 ## 📦 Installation
 
