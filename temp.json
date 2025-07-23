@@ -1,0 +1,5215 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:8888/destination?filter%5B0%5D%5Btype%5D=leftjoin&filter%5B0%5D%5Bfield%5D=customer&filter%5B0%5D%5Balias%5D=customer&filter%5B1%5D%5Btype%5D=like&filter%5B1%5D%5Bwhere%5D=or&filter%5B1%5D%5Balias%5D=customer&filter%5B1%5D%5Bfield%5D=businessName&filter%5B1%5D%5Bvalue%5D=%25%25&filter%5B2%5D%5Btype%5D=like&filter%5B2%5D%5Bwhere%5D=or&filter%5B2%5D%5Bfield%5D=code&filter%5B2%5D%5Bvalue%5D=%25%25&filter%5B3%5D%5Btype%5D=eq&filter%5B3%5D%5Bfield%5D=isActive&filter%5B3%5D%5Bvalue%5D=1&order-by%5B0%5D%5Btype%5D=field&order-by%5B0%5D%5Bfield%5D=code&order-by%5B0%5D%5Bdirection%5D=asc&page=1"
+    },
+    "first": {
+      "href": "http://localhost:8888/destination?filter%5B0%5D%5Btype%5D=leftjoin&filter%5B0%5D%5Bfield%5D=customer&filter%5B0%5D%5Balias%5D=customer&filter%5B1%5D%5Btype%5D=like&filter%5B1%5D%5Bwhere%5D=or&filter%5B1%5D%5Balias%5D=customer&filter%5B1%5D%5Bfield%5D=businessName&filter%5B1%5D%5Bvalue%5D=%25%25&filter%5B2%5D%5Btype%5D=like&filter%5B2%5D%5Bwhere%5D=or&filter%5B2%5D%5Bfield%5D=code&filter%5B2%5D%5Bvalue%5D=%25%25&filter%5B3%5D%5Btype%5D=eq&filter%5B3%5D%5Bfield%5D=isActive&filter%5B3%5D%5Bvalue%5D=1&order-by%5B0%5D%5Btype%5D=field&order-by%5B0%5D%5Bfield%5D=code&order-by%5B0%5D%5Bdirection%5D=asc"
+    },
+    "last": {
+      "href": "http://localhost:8888/destination?filter%5B0%5D%5Btype%5D=leftjoin&filter%5B0%5D%5Bfield%5D=customer&filter%5B0%5D%5Balias%5D=customer&filter%5B1%5D%5Btype%5D=like&filter%5B1%5D%5Bwhere%5D=or&filter%5B1%5D%5Balias%5D=customer&filter%5B1%5D%5Bfield%5D=businessName&filter%5B1%5D%5Bvalue%5D=%25%25&filter%5B2%5D%5Btype%5D=like&filter%5B2%5D%5Bwhere%5D=or&filter%5B2%5D%5Bfield%5D=code&filter%5B2%5D%5Bvalue%5D=%25%25&filter%5B3%5D%5Btype%5D=eq&filter%5B3%5D%5Bfield%5D=isActive&filter%5B3%5D%5Bvalue%5D=1&order-by%5B0%5D%5Btype%5D=field&order-by%5B0%5D%5Bfield%5D=code&order-by%5B0%5D%5Bdirection%5D=asc&page=616"
+    },
+    "next": {
+      "href": "http://localhost:8888/destination?filter%5B0%5D%5Btype%5D=leftjoin&filter%5B0%5D%5Bfield%5D=customer&filter%5B0%5D%5Balias%5D=customer&filter%5B1%5D%5Btype%5D=like&filter%5B1%5D%5Bwhere%5D=or&filter%5B1%5D%5Balias%5D=customer&filter%5B1%5D%5Bfield%5D=businessName&filter%5B1%5D%5Bvalue%5D=%25%25&filter%5B2%5D%5Btype%5D=like&filter%5B2%5D%5Bwhere%5D=or&filter%5B2%5D%5Bfield%5D=code&filter%5B2%5D%5Bvalue%5D=%25%25&filter%5B3%5D%5Btype%5D=eq&filter%5B3%5D%5Bfield%5D=isActive&filter%5B3%5D%5Bvalue%5D=1&order-by%5B0%5D%5Btype%5D=field&order-by%5B0%5D%5Bfield%5D=code&order-by%5B0%5D%5Bdirection%5D=asc&page=2"
+    }
+  },
+  "_embedded": {
+    "destination": [
+      {
+        "destinationCode": "00000",
+        "prospectCode": null,
+        "code": "0000001-000",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": "2024-07-12",
+        "lastInterventionDate": null,
+        "lastNoteDate": "2022-01-17",
+        "lastOrderDate": "2025-07-10",
+        "lastInvoiceDate": "2025-05-30",
+        "lastAgentAppointment": null,
+        "lastAction": "2025-07-10",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "consegne",
+        "contactPerson": "0302686157 - F.0302686192",
+        "free": null,
+        "companyName": null,
+        "closureNote": "chiusura",
+        "id": "efe818e8-52bf-4937-b757-be99f12872b0",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-07-10",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "CONSOLI S.P.A.",
+        "businessAddressTitle": "VIA GRANDI, 2,25125,BRESCIA (BS)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA GRANDI, 2                      ",
+        "businessStreetNumber": "2",
+        "businessPostalCode": "25125    ",
+        "businessCity": "BRESCIA                       ",
+        "businessProvince": "Provincia di Brescia",
+        "businessProvinceShort": "BS",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5195981,
+        "businessLongitude": 10.1663421,
+        "phoneNumber": "0302686111",
+        "mobileNumber": null,
+        "email": "d.rossini@pulitori.it",
+        "emailPec": "",
+        "fax": "0302686193",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-06-11 09:27:03.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": {
+          "date": "2025-06-11 09:27:03.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": null,
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": "2025 : EUR 1.203,38 - 2024 fino oggi : EUR 872,96 - 2024: EUR 1.922,95 - R.B.90 GG.F.M.",
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=efe818e8-52bf-4937-b757-be99f12872b0"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=efe818e8-52bf-4937-b757-be99f12872b0"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=efe818e8-52bf-4937-b757-be99f12872b0"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=efe818e8-52bf-4937-b757-be99f12872b0"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=efe818e8-52bf-4937-b757-be99f12872b0"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=efe818e8-52bf-4937-b757-be99f12872b0"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/efe818e8-52bf-4937-b757-be99f12872b0"
+          }
+        }
+      },
+      {
+        "destinationCode": "00001",
+        "prospectCode": null,
+        "code": "0000001-001",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": "2025-06-25",
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2025-07-10",
+        "lastInvoiceDate": "2022-09-13",
+        "lastAgentAppointment": null,
+        "lastAction": "2025-07-10",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "tel per avvisare",
+        "contactPerson": "SIG.RA MARIANI LUISA",
+        "free": null,
+        "companyName": "PULITORI ED AFFINI S.P.A.               ",
+        "closureNote": "",
+        "id": "8b694215-2f6f-4b57-b2c9-23cd404f010c",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-07-10",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "PULITORI ED AFFINI S.P.A.",
+        "businessAddressTitle": "VIA GRANDI, N. 19,20092,CINISELLO BALSAMO (MI)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA GRANDI, N. 19                  ",
+        "businessStreetNumber": "19",
+        "businessPostalCode": "20092   ",
+        "businessCity": "CINISELLO BALSAMO             ",
+        "businessProvince": "CittÃ  Metropolitana di Milano",
+        "businessProvinceShort": "MI",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5420786,
+        "businessLongitude": 9.1974305,
+        "phoneNumber": "02.66016593",
+        "mobileNumber": null,
+        "email": "asdf",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:59:28.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "d99c366a-9ffd-4688-a215-97a48d8e8674",
+          "code": "21",
+          "description": "MILANO"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8b694215-2f6f-4b57-b2c9-23cd404f010c"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8b694215-2f6f-4b57-b2c9-23cd404f010c"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8b694215-2f6f-4b57-b2c9-23cd404f010c"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8b694215-2f6f-4b57-b2c9-23cd404f010c"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8b694215-2f6f-4b57-b2c9-23cd404f010c"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8b694215-2f6f-4b57-b2c9-23cd404f010c"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/8b694215-2f6f-4b57-b2c9-23cd404f010c"
+          }
+        }
+      },
+      {
+        "destinationCode": "00002",
+        "prospectCode": null,
+        "code": "0000001-002",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2025-06-25",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2025-06-25",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "asdf",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "PULITORI ED AFFINI S.P.A.               ",
+        "closureNote": "",
+        "id": "9d431797-4dc2-41ea-9227-f135142db435",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-06-25",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "PULITORI ED AFFINI S.P.A.",
+        "businessAddressTitle": "VIA J.F. KENNEDY, N. 11,24040,LALLIO (BG)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA J.F. KENNEDY, N. 11            ",
+        "businessStreetNumber": "11",
+        "businessPostalCode": "24040   ",
+        "businessCity": "LALLIO                        ",
+        "businessProvince": "Provincia di Bergamo",
+        "businessProvinceShort": "BG",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.6675711,
+        "businessLongitude": 9.6311709,
+        "phoneNumber": "asdf",
+        "mobileNumber": null,
+        "email": "asdf",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:38.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "3147b72a-de3a-4460-92c4-d7d7f162a660",
+          "code": "02",
+          "description": "BRESCIA CITTA'"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=9d431797-4dc2-41ea-9227-f135142db435"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=9d431797-4dc2-41ea-9227-f135142db435"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=9d431797-4dc2-41ea-9227-f135142db435"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=9d431797-4dc2-41ea-9227-f135142db435"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=9d431797-4dc2-41ea-9227-f135142db435"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=9d431797-4dc2-41ea-9227-f135142db435"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/9d431797-4dc2-41ea-9227-f135142db435"
+          }
+        }
+      },
+      {
+        "destinationCode": "00003",
+        "prospectCode": null,
+        "code": "0000001-003",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2004-04-13",
+        "lastOrderDate": null,
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2004-04-13",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "MENSA VIGILI DEL FUOCO                  ",
+        "closureNote": "",
+        "id": "bd97725a-89c8-47d7-b740-74fbd3c6afc3",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "MENSA VIGILI DEL FUOCO",
+        "businessAddressTitle": "VIA SCUOLE, 6,25100,BRESCIA (BS)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA SCUOLE, 6                      ",
+        "businessStreetNumber": "6",
+        "businessPostalCode": "25100   ",
+        "businessCity": "BRESCIA                       ",
+        "businessProvince": "Provincia di Brescia",
+        "businessProvinceShort": "BS",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5609726,
+        "businessLongitude": 10.2147177,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:38.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "3147b72a-de3a-4460-92c4-d7d7f162a660",
+          "code": "02",
+          "description": "BRESCIA CITTA'"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/bd97725a-89c8-47d7-b740-74fbd3c6afc3"
+          }
+        }
+      },
+      {
+        "destinationCode": "00004",
+        "prospectCode": null,
+        "code": "0000001-004",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2004-04-21",
+        "lastOrderDate": null,
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2004-04-21",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "*BRANDT ITALIA SPA                      ",
+        "closureNote": "",
+        "id": "fc79c371-e188-4829-8431-375e8bc90a19",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "*BRANDT ITALIA SPA",
+        "businessAddressTitle": "V.LE EUROPA, 5/7,25028,VEROLANUOVA (BS)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "V.LE EUROPA, 5/7                   ",
+        "businessStreetNumber": "5",
+        "businessPostalCode": "25028   ",
+        "businessCity": "VEROLANUOVA                   ",
+        "businessProvince": "Provincia di Brescia",
+        "businessProvinceShort": "BS",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.3268178,
+        "businessLongitude": 10.0653793,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:57:08.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7fc4b3-0db3-11ed-bf20-020f15a448a2",
+          "code": "002",
+          "description": "INACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "d46375e4-386a-4a4a-9767-e17a7ffe9bde",
+          "code": "04",
+          "description": "BASSA ORIENTALE"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fc79c371-e188-4829-8431-375e8bc90a19"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fc79c371-e188-4829-8431-375e8bc90a19"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fc79c371-e188-4829-8431-375e8bc90a19"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fc79c371-e188-4829-8431-375e8bc90a19"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fc79c371-e188-4829-8431-375e8bc90a19"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fc79c371-e188-4829-8431-375e8bc90a19"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/fc79c371-e188-4829-8431-375e8bc90a19"
+          }
+        }
+      },
+      {
+        "destinationCode": "00005",
+        "prospectCode": null,
+        "code": "0000001-005",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": null,
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": null,
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "PULITORI FILIALE PADOVA                 ",
+        "closureNote": "",
+        "id": "d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "PULITORI FILIALE PADOVA",
+        "businessAddressTitle": "V.NAVIGAZIONE INTERNA,59,PADOVA (PD)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "V.NAVIGAZIONE INTERNA,59           ",
+        "businessStreetNumber": "59",
+        "businessPostalCode": "        ",
+        "businessCity": "PADOVA                        ",
+        "businessProvince": "Provincia di Padova",
+        "businessProvinceShort": "PD",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.4087647,
+        "businessLongitude": 11.9302337,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:38.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/d6911ea4-b4bb-45e5-a14b-5529bc1fe4c9"
+          }
+        }
+      },
+      {
+        "destinationCode": "00006",
+        "prospectCode": null,
+        "code": "0000001-006",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2014-06-10",
+        "lastOrderDate": null,
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2014-06-10",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "MACPI SPA 030/7403611                   ",
+        "closureNote": "",
+        "id": "26552880-96d2-4682-bce1-9f284f4837a4",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "MACPI SPA 030/7403611",
+        "businessAddressTitle": "VIA PIANTADA,9/O,25036,PALAZZOLO SULL'OGLIO (BS)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA PIANTADA,9/O                   ",
+        "businessStreetNumber": "9",
+        "businessPostalCode": "25036   ",
+        "businessCity": "PALAZZOLO SULL'OGLIO          ",
+        "businessProvince": "Provincia di Brescia",
+        "businessProvinceShort": "BS",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.585277,
+        "businessLongitude": 9.8779257,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:38.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "3c09ff1f-8847-46ee-b2b5-0a23a0ef9326",
+          "code": "15",
+          "description": "FRANCIACORTA"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=26552880-96d2-4682-bce1-9f284f4837a4"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=26552880-96d2-4682-bce1-9f284f4837a4"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=26552880-96d2-4682-bce1-9f284f4837a4"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=26552880-96d2-4682-bce1-9f284f4837a4"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=26552880-96d2-4682-bce1-9f284f4837a4"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=26552880-96d2-4682-bce1-9f284f4837a4"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/26552880-96d2-4682-bce1-9f284f4837a4"
+          }
+        }
+      },
+      {
+        "destinationCode": "00007",
+        "prospectCode": null,
+        "code": "0000001-007",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2022-03-28",
+        "lastOrderDate": "2025-06-23",
+        "lastInvoiceDate": "2022-09-13",
+        "lastAgentAppointment": null,
+        "lastAction": "2025-06-23",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "asdf",
+        "contactPerson": "Graziano (ordini)",
+        "free": null,
+        "companyName": "PULITORI ED AFFINI SPA                  ",
+        "closureNote": "",
+        "id": "5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-06-23",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "PULITORI ED AFFINI SPA",
+        "businessAddressTitle": "VIA GRANDI, 2,25100,BRESCIA (BS)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA GRANDI, 2                      ",
+        "businessStreetNumber": "2",
+        "businessPostalCode": "25100   ",
+        "businessCity": "BRESCIA                       ",
+        "businessProvince": "Provincia di Brescia",
+        "businessProvinceShort": "BS",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5195981,
+        "businessLongitude": 10.1663421,
+        "phoneNumber": "0302686157 Antonio",
+        "mobileNumber": null,
+        "email": "asdf",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:59:47.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "579070d0-58ef-4b28-b10e-9fff0e8aa137",
+          "code": "23",
+          "description": "HINTERLAND BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": "2024 : EUR 105,12 - 2023 fino oggi : EUR 0,00 - 2023: EUR 0,00 - R.B.90 GG.F.M.",
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/5d1bb6b7-085a-4d2d-a8d1-41fa3b193d05"
+          }
+        }
+      },
+      {
+        "destinationCode": "00008",
+        "prospectCode": null,
+        "code": "0000001-008",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": false,
+        "discountVisible": null,
+        "blocked": false,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": "",
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": false,
+        "oneInvoicePerOrder": false,
+        "cumulativeInvoices": false,
+        "cumulativeInvoicesPerDestination": false,
+        "oneDDTperOrder": false,
+        "onePickOrderPerOrder": false,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2014-04-23",
+        "lastOrderDate": "2016-05-23",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2016-05-23",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "avvisare guido per consegna 3357272789.",
+        "contactPerson": "Blerina (Guido Terminini)",
+        "free": null,
+        "companyName": "POLIAMBULANZA                           ",
+        "closureNote": "",
+        "id": "92cc095b-c58e-403f-be72-bc2a6bcc1d43",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-06-05",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "POLIAMBULANZA",
+        "businessAddressTitle": "VIA BISSOLATI, 57,25124,BRESCIA (BS)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA BISSOLATI, 57                  ",
+        "businessStreetNumber": "57",
+        "businessPostalCode": "25124   ",
+        "businessCity": "BRESCIA                       ",
+        "businessProvince": "Provincia di Brescia",
+        "businessProvinceShort": "BS",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5205965,
+        "businessLongitude": 10.2299793,
+        "phoneNumber": "3357272789",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-06-05 13:09:05.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": {
+          "date": "2025-06-05 13:09:05.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": {
+          "id": "588a3a88-0db3-11ed-bf20-020f15a448a2",
+          "code": "020",
+          "description": "OSPEDALE"
+        },
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "3147b72a-de3a-4460-92c4-d7d7f162a660",
+          "code": "02",
+          "description": "BRESCIA CITTA'"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/92cc095b-c58e-403f-be72-bc2a6bcc1d43"
+          }
+        }
+      },
+      {
+        "destinationCode": "00009",
+        "prospectCode": null,
+        "code": "0000001-009",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2014-11-18",
+        "lastInvoiceDate": "2014-11-19",
+        "lastAgentAppointment": null,
+        "lastAction": "2014-11-19",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "TELEF PRIMA",
+        "contactPerson": "LIVORNO BEATRICE X CONSEGNA",
+        "free": null,
+        "companyName": "CANTIERE CAMBIANO SANTENA               ",
+        "closureNote": "",
+        "id": "7769d29a-b8ac-41ea-bb0a-2e39743edb1d",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "CANTIERE CAMBIANO SANTENA",
+        "businessAddressTitle": "P.LE STAZIONE, 3,CAMBIANO (TO)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "P.LE STAZIONE, 3                   ",
+        "businessStreetNumber": "3",
+        "businessPostalCode": "        ",
+        "businessCity": "CAMBIANO                      ",
+        "businessProvince": "CittÃ  Metropolitana di Torino",
+        "businessProvinceShort": "TO",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 44.967126,
+        "businessLongitude": 7.7734538,
+        "phoneNumber": "3316618429",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:59:28.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/7769d29a-b8ac-41ea-bb0a-2e39743edb1d"
+          }
+        }
+      },
+      {
+        "destinationCode": "00010",
+        "prospectCode": null,
+        "code": "0000001-010",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2015-03-06",
+        "lastInvoiceDate": "2015-03-11",
+        "lastAgentAppointment": null,
+        "lastAction": "2015-03-11",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "TELEF PRIMA",
+        "contactPerson": "SIG. VAZON",
+        "free": null,
+        "companyName": "CANTIERE BUSSOLENO                      ",
+        "closureNote": "",
+        "id": "92fe1fb7-c3cc-49ab-a7cf-b44a963fb084",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "CANTIERE BUSSOLENO",
+        "businessAddressTitle": "STRASA SUSA, 2/A,BUSSOLENO (TO)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "STRASA SUSA, 2/A                   ",
+        "businessStreetNumber": "2A",
+        "businessPostalCode": "        ",
+        "businessCity": "BUSSOLENO                     ",
+        "businessProvince": "CittÃ  Metropolitana di Torino",
+        "businessProvinceShort": "TO",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.138285,
+        "businessLongitude": 7.13882,
+        "phoneNumber": "331/6624861",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:59:28.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/92fe1fb7-c3cc-49ab-a7cf-b44a963fb084"
+          }
+        }
+      },
+      {
+        "destinationCode": "00011",
+        "prospectCode": null,
+        "code": "0000001-011",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2019-02-19",
+        "lastInvoiceDate": "2014-12-05",
+        "lastAgentAppointment": null,
+        "lastAction": "2019-02-19",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "SIG CAMPAGNARI",
+        "free": null,
+        "companyName": "CANTIERE VERONA                         ",
+        "closureNote": "",
+        "id": "ba5d2cdb-31f7-475e-813c-091e93d2de81",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "CANTIERE VERONA",
+        "businessAddressTitle": "VIA ADIGETTO, 10,VERONA (VR)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA ADIGETTO, 10                   ",
+        "businessStreetNumber": "10",
+        "businessPostalCode": "        ",
+        "businessCity": "VERONA                        ",
+        "businessProvince": "Provincia di Verona",
+        "businessProvinceShort": "VR",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.4364571,
+        "businessLongitude": 10.9956521,
+        "phoneNumber": "3357272794",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:52.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=ba5d2cdb-31f7-475e-813c-091e93d2de81"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=ba5d2cdb-31f7-475e-813c-091e93d2de81"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=ba5d2cdb-31f7-475e-813c-091e93d2de81"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=ba5d2cdb-31f7-475e-813c-091e93d2de81"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=ba5d2cdb-31f7-475e-813c-091e93d2de81"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=ba5d2cdb-31f7-475e-813c-091e93d2de81"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/ba5d2cdb-31f7-475e-813c-091e93d2de81"
+          }
+        }
+      },
+      {
+        "destinationCode": "00012",
+        "prospectCode": null,
+        "code": "0000001-012",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2016-02-04",
+        "lastInvoiceDate": "2015-01-14",
+        "lastAgentAppointment": null,
+        "lastAction": "2016-02-04",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "Picotti 3357272802 preavviso tel FERCAM",
+        "contactPerson": "Sig.ra Guarnaccio Nunzia/Sig P",
+        "free": null,
+        "companyName": "UNIVERSITA' INSUBRIA DI VARESE          ",
+        "closureNote": "",
+        "id": "02e13ea1-48ce-4b0a-83da-95fc2ce4be45",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "UNIVERSITA' INSUBRIA DI VARESE",
+        "businessAddressTitle": "VIA ROSSI,9 C/C PADIGLIONE SEPPILLI,21100,VARESE (VA)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA ROSSI,9 C/C PADIGLIONE SEPPILLI",
+        "businessStreetNumber": "9",
+        "businessPostalCode": "21100   ",
+        "businessCity": "VARESE                        ",
+        "businessProvince": "Provincia di Varese",
+        "businessProvinceShort": "VA",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.7992789,
+        "businessLongitude": 8.8471156,
+        "phoneNumber": "3346770265/3357272",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:59:27.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/02e13ea1-48ce-4b0a-83da-95fc2ce4be45"
+          }
+        }
+      },
+      {
+        "destinationCode": "00013",
+        "prospectCode": null,
+        "code": "0000001-013",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2015-09-11",
+        "lastOrderDate": "2024-06-10",
+        "lastInvoiceDate": "2015-03-11",
+        "lastAgentAppointment": null,
+        "lastAction": "2024-06-10",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "EZIO 3357272801 DONATELLA 3346",
+        "free": null,
+        "companyName": "UNIVERSITA' DEGLI STUDI TORINO          ",
+        "closureNote": "",
+        "id": "38af4781-6366-4f3c-83a8-0f1a146dfd5b",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "UNIVERSITA' DEGLI STUDI TORINO",
+        "businessAddressTitle": "VIA LEONARDO DA VINCI, 44,10095,GRUGLIASCO (TO)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA LEONARDO DA VINCI, 44          ",
+        "businessStreetNumber": "44",
+        "businessPostalCode": "10095   ",
+        "businessCity": "GRUGLIASCO                    ",
+        "businessProvince": "CittÃ  Metropolitana di Torino",
+        "businessProvinceShort": "TO",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.0657357,
+        "businessLongitude": 7.5894717,
+        "phoneNumber": "3346524571",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:51.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/38af4781-6366-4f3c-83a8-0f1a146dfd5b"
+          }
+        }
+      },
+      {
+        "destinationCode": "00014",
+        "prospectCode": null,
+        "code": "0000001-014",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": false,
+        "discountVisible": null,
+        "blocked": false,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": "",
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": false,
+        "oneInvoicePerOrder": false,
+        "cumulativeInvoices": false,
+        "cumulativeInvoicesPerDestination": false,
+        "oneDDTperOrder": false,
+        "onePickOrderPerOrder": false,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2018-11-07",
+        "lastInvoiceDate": "2015-03-11",
+        "lastAgentAppointment": null,
+        "lastAction": "2018-11-07",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "Mariai 3485229801 preavviso tel FERCAM",
+        "contactPerson": "Referente per consegna Sig.ra",
+        "free": null,
+        "companyName": "LOTTO 7-TORINO                          ",
+        "closureNote": "",
+        "id": "fb9781c7-45b8-4e5c-af2a-c9f813cceb3c",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-06-05",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "LOTTO 7-TORINO",
+        "businessAddressTitle": "VIA PIETRO GIURIA,1,10125,TORINO (TO)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA PIETRO GIURIA,1                ",
+        "businessStreetNumber": "1",
+        "businessPostalCode": "10125   ",
+        "businessCity": "TORINO                        ",
+        "businessProvince": "CittÃ  Metropolitana di Torino",
+        "businessProvinceShort": "TO",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.0520505,
+        "businessLongitude": 7.6814653,
+        "phoneNumber": "3485229801",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-06-05 13:12:03.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": {
+          "date": "2025-06-05 13:12:03.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": {
+          "id": "5888bcbb-0db3-11ed-bf20-020f15a448a2",
+          "code": "017",
+          "description": "ISTITUTO SCOLASTICO PRIVATO"
+        },
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/fb9781c7-45b8-4e5c-af2a-c9f813cceb3c"
+          }
+        }
+      },
+      {
+        "destinationCode": "00015",
+        "prospectCode": null,
+        "code": "0000001-015",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2014-10-22",
+        "lastInvoiceDate": "2014-11-06",
+        "lastAgentAppointment": null,
+        "lastAction": "2014-11-06",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "BREGU BLERINA",
+        "free": null,
+        "companyName": "CREMONA SOLIDALE R.S.A. MAINARDI        ",
+        "closureNote": "",
+        "id": "2a910fdf-67ab-4e19-857b-63fb6d11ce55",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "CREMONA SOLIDALE R.S.A. MAINARDI",
+        "businessAddressTitle": "VIA BRESCIA, 207,26100,CREMONA (CR)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA BRESCIA, 207                   ",
+        "businessStreetNumber": "207",
+        "businessPostalCode": "26100   ",
+        "businessCity": "CREMONA                       ",
+        "businessProvince": "Provincia di Cremona",
+        "businessProvinceShort": "CR",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.1517249,
+        "businessLongitude": 10.0375763,
+        "phoneNumber": "3357272778",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:48.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5e124fbc-2a23-4836-a30b-0943b907a8e4",
+          "code": "09",
+          "description": "CREMONA E PROVINCIA"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/2a910fdf-67ab-4e19-857b-63fb6d11ce55"
+          }
+        }
+      },
+      {
+        "destinationCode": "00016",
+        "prospectCode": null,
+        "code": "0000001-016",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2018-10-17",
+        "lastInvoiceDate": "2015-01-14",
+        "lastAgentAppointment": null,
+        "lastAction": "2018-10-17",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "CAFFARELLA 3357272797",
+        "free": null,
+        "companyName": "ARPA LOMBARDIA                          ",
+        "closureNote": "",
+        "id": "7f6ce139-0f21-4297-bb0c-92bd6232b545",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "ARPA LOMBARDIA",
+        "businessAddressTitle": "VIA CARRETTI, 5,21100,VARESE (VA)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA CARRETTI, 5                    ",
+        "businessStreetNumber": "5",
+        "businessPostalCode": "21100   ",
+        "businessCity": "VARESE                        ",
+        "businessProvince": "Provincia di Varese",
+        "businessProvinceShort": "VA",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.81795,
+        "businessLongitude": 8.81085,
+        "phoneNumber": "CAFFARELLA 3357272",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:51.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7f6ce139-0f21-4297-bb0c-92bd6232b545"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7f6ce139-0f21-4297-bb0c-92bd6232b545"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7f6ce139-0f21-4297-bb0c-92bd6232b545"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7f6ce139-0f21-4297-bb0c-92bd6232b545"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7f6ce139-0f21-4297-bb0c-92bd6232b545"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7f6ce139-0f21-4297-bb0c-92bd6232b545"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/7f6ce139-0f21-4297-bb0c-92bd6232b545"
+          }
+        }
+      },
+      {
+        "destinationCode": "00017",
+        "prospectCode": null,
+        "code": "0000001-017",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2015-10-07",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2015-10-07",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "AUTOVIE VENETE SPA                      ",
+        "closureNote": "",
+        "id": "f8764046-ee8f-44d0-9145-75d759fdb9e6",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "AUTOVIE VENETE SPA",
+        "businessAddressTitle": "PALMANOVA CENTRO SERVIZI,33050,BAGNARIA ARSA (UD)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "PALMANOVA CENTRO SERVIZI           ",
+        "businessStreetNumber": null,
+        "businessPostalCode": "33050   ",
+        "businessCity": "BAGNARIA ARSA                 ",
+        "businessProvince": "Ente di decentramento regionale di Udine",
+        "businessProvinceShort": "UD",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.885197,
+        "businessLongitude": 13.2892153,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:48.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f8764046-ee8f-44d0-9145-75d759fdb9e6"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f8764046-ee8f-44d0-9145-75d759fdb9e6"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f8764046-ee8f-44d0-9145-75d759fdb9e6"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f8764046-ee8f-44d0-9145-75d759fdb9e6"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f8764046-ee8f-44d0-9145-75d759fdb9e6"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f8764046-ee8f-44d0-9145-75d759fdb9e6"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/f8764046-ee8f-44d0-9145-75d759fdb9e6"
+          }
+        }
+      },
+      {
+        "destinationCode": "00018",
+        "prospectCode": null,
+        "code": "0000001-018",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2015-06-19",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2015-06-19",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "ISTITUTO CONFIGLIACHI RES BREDA         ",
+        "closureNote": "",
+        "id": "5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "ISTITUTO CONFIGLIACHI RES BREDA",
+        "businessAddressTitle": "VIA IPPODROMO, 2,35129,PADOVA (PD)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA IPPODROMO, 2                   ",
+        "businessStreetNumber": "2",
+        "businessPostalCode": "35129   ",
+        "businessCity": "PADOVA                        ",
+        "businessProvince": "Provincia di Padova",
+        "businessProvinceShort": "PD",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.4220302,
+        "businessLongitude": 11.9361821,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:48.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/5bf83cc8-7e23-4fbd-99d1-ae84ade6eae2"
+          }
+        }
+      },
+      {
+        "destinationCode": "00019",
+        "prospectCode": null,
+        "code": "0000001-019",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": "2017-05-11",
+        "lastOrderDate": "2018-10-11",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2018-10-11",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "POLICLINICO SAN MATTEO                  ",
+        "closureNote": "",
+        "id": "8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "POLICLINICO SAN MATTEO",
+        "businessAddressTitle": "VIA GOLGI,19,27100,PAVIA (PV)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA GOLGI,19                       ",
+        "businessStreetNumber": "19",
+        "businessPostalCode": "27100   ",
+        "businessCity": "PAVIA                         ",
+        "businessProvince": "Provincia di Pavia",
+        "businessProvinceShort": "PV",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.1974199,
+        "businessLongitude": 9.1486289,
+        "phoneNumber": "3665891648 BIANCA",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:51.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/8a3bcea5-9eb7-47e7-ba7e-ddcda20b08be"
+          }
+        }
+      },
+      {
+        "destinationCode": "00020",
+        "prospectCode": null,
+        "code": "0000001-020",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2017-09-11",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2017-09-11",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "UNIVERSITA' DEGLI STUDI TORINO          ",
+        "closureNote": "",
+        "id": "a2a1bc16-910e-48d1-bb0b-7ac5162946c2",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "UNIVERSITA' DEGLI STUDI TORINO",
+        "businessAddressTitle": "CORSO MASSIMO D'AZEGLIO, 46,10125,TORINO (TO)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "CORSO MASSIMO D'AZEGLIO, 46        ",
+        "businessStreetNumber": "46",
+        "businessPostalCode": "10125   ",
+        "businessCity": "TORINO                        ",
+        "businessProvince": "CittÃ  Metropolitana di Torino",
+        "businessProvinceShort": "TO",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.0520273,
+        "businessLongitude": 7.6823656,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:49.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/a2a1bc16-910e-48d1-bb0b-7ac5162946c2"
+          }
+        }
+      },
+      {
+        "destinationCode": "00021",
+        "prospectCode": null,
+        "code": "0000001-021",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2017-04-10",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2017-04-10",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "SIG. MAZZOLENI",
+        "free": null,
+        "companyName": "INTERCOS DOVERA                         ",
+        "closureNote": "",
+        "id": "f66bb612-5b37-4176-9817-1ae2d8fed666",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "INTERCOS DOVERA",
+        "businessAddressTitle": "STRADA PROVINCIALE BERGAMINA 472,26010,DOVERA (CR)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "STRADA PROVINCIALE BERGAMINA 472   ",
+        "businessStreetNumber": null,
+        "businessPostalCode": "26010   ",
+        "businessCity": "DOVERA                        ",
+        "businessProvince": "Provincia di Cremona",
+        "businessProvinceShort": "CR",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.3636875,
+        "businessLongitude": 9.536983,
+        "phoneNumber": "3357272795",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:49.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5e124fbc-2a23-4836-a30b-0943b907a8e4",
+          "code": "09",
+          "description": "CREMONA E PROVINCIA"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f66bb612-5b37-4176-9817-1ae2d8fed666"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f66bb612-5b37-4176-9817-1ae2d8fed666"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f66bb612-5b37-4176-9817-1ae2d8fed666"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f66bb612-5b37-4176-9817-1ae2d8fed666"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f66bb612-5b37-4176-9817-1ae2d8fed666"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=f66bb612-5b37-4176-9817-1ae2d8fed666"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/f66bb612-5b37-4176-9817-1ae2d8fed666"
+          }
+        }
+      },
+      {
+        "destinationCode": "00022",
+        "prospectCode": null,
+        "code": "0000001-022",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2015-12-02",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2015-12-02",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "OSP.NIGUARDA EX PSHIC CA GRANDA         ",
+        "closureNote": "",
+        "id": "7b28b630-ae23-4bd0-9c0b-a2c7b82231d2",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "OSP.NIGUARDA EX PSHIC CA GRANDA",
+        "businessAddressTitle": "VIA IPPOCRATE, 45,20162,MILANO (MI)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA IPPOCRATE, 45                  ",
+        "businessStreetNumber": "45",
+        "businessPostalCode": "20162   ",
+        "businessCity": "MILANO                        ",
+        "businessProvince": "CittÃ  Metropolitana di Milano",
+        "businessProvinceShort": "MI",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5218782,
+        "businessLongitude": 9.162949,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:48.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "d99c366a-9ffd-4688-a215-97a48d8e8674",
+          "code": "21",
+          "description": "MILANO"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/7b28b630-ae23-4bd0-9c0b-a2c7b82231d2"
+          }
+        }
+      },
+      {
+        "destinationCode": "00023",
+        "prospectCode": null,
+        "code": "0000001-023",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2019-03-08",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2019-03-08",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "",
+        "free": null,
+        "companyName": "ARPA LOMBARDIA LOTTO 9                  ",
+        "closureNote": "",
+        "id": "6b56acc8-208e-4d18-8b78-565c3615fc75",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "ARPA LOMBARDIA LOTTO 9",
+        "businessAddressTitle": "VIA L.GREPPI 24,21057,OLGIATE OLONA (VA)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA L.GREPPI 24                    ",
+        "businessStreetNumber": "24",
+        "businessPostalCode": "21057   ",
+        "businessCity": "OLGIATE OLONA                 ",
+        "businessProvince": "Provincia di Varese",
+        "businessProvinceShort": "VA",
+        "businessCountry": "IT ",
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.6288615,
+        "businessLongitude": 8.8886255,
+        "phoneNumber": "",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:53.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "5135d3bf-aeab-4196-b0c1-b3364eb04475",
+          "code": "01",
+          "description": "VARIE FUORI PROVINCIA BS"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=6b56acc8-208e-4d18-8b78-565c3615fc75"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=6b56acc8-208e-4d18-8b78-565c3615fc75"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=6b56acc8-208e-4d18-8b78-565c3615fc75"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=6b56acc8-208e-4d18-8b78-565c3615fc75"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=6b56acc8-208e-4d18-8b78-565c3615fc75"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=6b56acc8-208e-4d18-8b78-565c3615fc75"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/6b56acc8-208e-4d18-8b78-565c3615fc75"
+          }
+        }
+      },
+      {
+        "destinationCode": "00024",
+        "prospectCode": null,
+        "code": "0000001-024",
+        "registryType": "L",
+        "note": null,
+        "excludedFromPrize": null,
+        "discountVisible": null,
+        "blocked": null,
+        "blockReason": null,
+        "starsNumber": null,
+        "surface": null,
+        "potentialTurnover": null,
+        "employeesNumber": null,
+        "seatsNumber": null,
+        "roomsNumber": null,
+        "guestsNumber": null,
+        "closingDays": null,
+        "seasonClosingFrom": null,
+        "seasonClosingTo": null,
+        "shippingTimeFrom": null,
+        "shippingTimeTo": null,
+        "interventionTimeFrom": null,
+        "interventionTimeTo": null,
+        "sdiCode": null,
+        "bankCharges": null,
+        "creditLimit": null,
+        "splitPayment": null,
+        "oneInvoicePerOrder": null,
+        "cumulativeInvoices": null,
+        "cumulativeInvoicesPerDestination": null,
+        "oneDDTperOrder": null,
+        "onePickOrderPerOrder": null,
+        "cup": null,
+        "cig": null,
+        "solvencyRatingKey": null,
+        "solvencyRatingDescription": null,
+        "lastOfferDate": null,
+        "lastInterventionDate": null,
+        "lastNoteDate": null,
+        "lastOrderDate": "2018-01-15",
+        "lastInvoiceDate": null,
+        "lastAgentAppointment": null,
+        "lastAction": "2018-01-15",
+        "maxDiscount": "30.00",
+        "minMarkup": "50.00",
+        "visit": null,
+        "delivery": "",
+        "contactPerson": "ADRIANOPOLI",
+        "free": null,
+        "companyName": "INTERCOS AGRATE                         ",
+        "closureNote": "",
+        "id": "8071af6e-a6da-4e88-8db1-a01be155d4f5",
+        "createdAt": "2022-07-27",
+        "updatedAt": "2025-01-02",
+        "residenceAddressTitle": null,
+        "residenceAddressSelectionType": null,
+        "residenceStreet": null,
+        "residenceStreetNumber": null,
+        "residencePostalCode": null,
+        "residenceCity": null,
+        "residenceProvince": null,
+        "residenceProvinceShort": null,
+        "residenceCountry": null,
+        "residenceCountryShort": null,
+        "fiscalDomicile": null,
+        "residenceLatitude": null,
+        "residenceLongitude": null,
+        "businessName": "INTERCOS AGRATE",
+        "businessAddressTitle": "VIA MARCONI 84,20041,AGRATE BRIANZA (MI)",
+        "businessAddressSelectionType": null,
+        "businessStreet": "VIA MARCONI 84                     ",
+        "businessStreetNumber": null,
+        "businessPostalCode": "20041   ",
+        "businessCity": "AGRATE BRIANZA                ",
+        "businessProvince": "Provincia di Monza e della Brianza",
+        "businessProvinceShort": "MI",
+        "businessCountry": null,
+        "businessCountryShort": "IT",
+        "vatNumber": "02076190178",
+        "businessFiscalCode": "02076190178",
+        "businessLatitude": 45.5670173,
+        "businessLongitude": 9.3624972,
+        "phoneNumber": "3371205760",
+        "mobileNumber": null,
+        "email": "",
+        "emailPec": null,
+        "fax": "",
+        "homepage": null,
+        "paymentCondition": null,
+        "paymentCharge": null,
+        "taxRate": null,
+        "bank": null,
+        "abi": null,
+        "cab": null,
+        "iban": null,
+        "sdi": null,
+        "readAt": {
+          "date": "2025-01-27 10:56:50.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "writeAt": null,
+        "isActive": true,
+        "invoiceCommissions": {},
+        "agent1": {
+          "id": "cdc5bb6f-b0a6-4a24-8f3a-7ea8312b2faf",
+          "displayName": "(11) AZIENDALE ZANOTTI",
+          "code": "11",
+          "supervisor": null,
+          "userId": "5ef38c65-8d16-11ed-af2a-026a3238d89a"
+        },
+        "agent2": null,
+        "subagent": null,
+        "commercialDirector": null,
+        "areaManager": null,
+        "commercialBackoffice": null,
+        "destinationTypology": null,
+        "customer": {
+          "id": "e0926ccc-1775-43b0-9b2d-4c9b9300f2a3",
+          "displayName": "CONSOLI S.P.A.",
+          "code": "0000001",
+          "isProspect": false,
+          "homepage": "",
+          "vatNumber": "02076190178",
+          "businessName": "CONSOLI S.P.A.",
+          "email": "d.rossini@pulitori.it"
+        },
+        "destinationState": {
+          "id": "4c7f66fd-0db3-11ed-bf20-020f15a448a2",
+          "code": "001",
+          "description": "ACTIVE"
+        },
+        "destinationArea": null,
+        "destinationSubArea": null,
+        "destinationLogisticArea": {
+          "id": "d99c366a-9ffd-4688-a215-97a48d8e8674",
+          "code": "21",
+          "description": "MILANO"
+        },
+        "destinationRange": null,
+        "destinationPaymentTerm": null,
+        "destinationBank": null,
+        "statisticalCustomer": null,
+        "buyingGroup": null,
+        "destinationShippingMethod": null,
+        "destinationCarrier": null,
+        "signaller": null,
+        "staffWorkorders": {},
+        "destinationGroup": {
+          "id": "fecbc136-5084-11ed-af2a-026a3238d89a",
+          "code": "GRU0063",
+          "description": "Pulitori & Affini"
+        },
+        "loans": {},
+        "invoiceDetail": null,
+        "createdBy": null,
+        "_embedded": {
+          "contacts": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-contact?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8071af6e-a6da-4e88-8db1-a01be155d4f5"
+              }
+            }
+          },
+          "orders": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/order?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8071af6e-a6da-4e88-8db1-a01be155d4f5"
+              }
+            }
+          },
+          "notes": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-note?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8071af6e-a6da-4e88-8db1-a01be155d4f5"
+              }
+            }
+          },
+          "commissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-percentage-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8071af6e-a6da-4e88-8db1-a01be155d4f5"
+              }
+            }
+          },
+          "orderCommissions": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-order-amount-commission?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8071af6e-a6da-4e88-8db1-a01be155d4f5"
+              }
+            }
+          },
+          "attachments": {
+            "_links": {
+              "self": {
+                "href": "http://localhost:8888/destination-attachment?filter%5B0%5D%5Bfield%5D=destination&filter%5B0%5D%5Btype%5D=eq&filter%5B0%5D%5Bvalue%5D=8071af6e-a6da-4e88-8db1-a01be155d4f5"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "http://localhost:8888/destination/8071af6e-a6da-4e88-8db1-a01be155d4f5"
+          }
+        }
+      }
+    ]
+  },
+  "page_count": 616,
+  "page_size": 25,
+  "total_items": 15381,
+  "page": 1
+}
