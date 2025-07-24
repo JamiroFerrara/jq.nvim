@@ -58,8 +58,12 @@ M.run = function()
         return
     end
     M.is_open = true
-    M.buf_scratch = U.new_scratch(false)
-    M.buf_commands = U.new_scratch(true)
+
+    U.split(false)
+    M.buf_scratch = U.new_scratch()
+
+    U.split(true)
+    M.buf_commands = U.new_scratch()
 
     U.nmap("<cr>", M.run_command, M.buf_commands)
     U.imap("<cr>", M.run_command, M.buf_commands)
