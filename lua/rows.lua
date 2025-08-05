@@ -24,7 +24,7 @@ function M.TableView:init(data)
     self.total_width = vim.o.columns
     self.col_widths = self:calculate_full_column_widths(self.data, self.total_width)
 
-    debug_split:show()
+    -- debug_split:show()
 
     self.split = Split({
         relative = "editor",
@@ -167,7 +167,6 @@ function M.TableView:setup_highlighting()
                     local end_col = vim.str_byteindex(line, right_border) -- 11th character (exclusive)
 
                     vim.api.nvim_buf_add_highlight(self.bufnr, self._active_ns, "TableHover", row - 1, start_col, end_col)
-                    vim.api.nvim_buf_add_highlight(self.bufnr, -1, "Visual", 3, 7, 15)
 
                     break
                 end
