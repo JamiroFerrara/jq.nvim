@@ -19,12 +19,47 @@ local debug_split = Split({
     },
 })
 
+function M.TableView:exec()
+    local row, byte_col = unpack(vim.api.nvim_win_get_cursor(0))
+    local line = vim.api.nvim_buf_get_lines(self.bufnr, row - 1, row, false)[1]
+    if not line then return end
+
+    local display_col = vim.fn.strdisplaywidth(line:sub(1, byte_col))
+
+    -- Skip header or border rows
+    local border_rows = {
+        [1] = true,
+        [3] = true,
+        [#self.data + 3] = true,
+    }
+    if border_rows[row] then
+        M.append_text(debug_split.bufnr, "Not a valid data row.")
+        return
+    end
+
+    -- Find column index
+    local visual_col = 1
+    for col_index, width in ipairs(self.col_widths) do
+        local left = visual_col + 1 -- skip left border
+        local right = visual_col + width
+
+        if display_col >= left and display_col <= right then
+            local data_row = row - 3 -- Adjust for header and borders
+            local cell_value = self.data[data_row + 1] and self.data[data_row + 1][col_index]
+            M.append_text(debug_split.bufnr, string.format("Cell[%d,%d]: %s", data_row, col_index, cell_value or "nil"))
+            return
+        end
+
+        visual_col = right + 1
+    end
+end
+
 function M.TableView:init(data)
-    self.data = data or {}
+    self.data = M.convert_json_array_to_flat_table(data) or {}
     self.total_width = vim.o.columns
     self.col_widths = self:calculate_full_column_widths(self.data, self.total_width)
 
-    -- debug_split:show()
+    debug_split:show()
 
     self.split = Split({
         relative = "editor",
@@ -43,6 +78,8 @@ function M.TableView:init(data)
 
     self.split:mount()
     self.bufnr = self.split.bufnr
+
+    U.nmap("<cr>", function() M.TableView:exec() end, self.bufnr)
 
     vim.api.nvim_buf_set_option(self.bufnr, "buftype", "nofile")
     vim.api.nvim_buf_set_option(self.bufnr, "bufhidden", "wipe")
@@ -158,7 +195,7 @@ function M.TableView:setup_highlighting()
                 local right_border = visual_col + width
 
                 if display_col >= left_border + 1 and display_col <= right_border then
-                    M.append_text(debug_split.bufnr, "left" .. tostring(left_border + 1) .. " " .. display_col .. " right" .. tostring(right_border))
+                    -- M.append_text(debug_split.bufnr, "left" .. tostring(left_border + 1) .. " " .. display_col .. " right" .. tostring(right_border))
                     vim.api.nvim_buf_clear_namespace(self.bufnr, self._active_ns, 0, -1)
                     -- vim.api.nvim_buf_add_highlight(self.bufnr, self._active_ns, "TableHover", row - 1, 0, 4)
                     local line = vim.api.nvim_buf_get_lines(self.bufnr, row - 1, row, false)[1]
@@ -175,6 +212,36 @@ function M.TableView:setup_highlighting()
             end
         end,
     })
+end
+
+M.convert_json_array_to_flat_table = function(json_array)
+    if type(json_array) ~= "table" or #json_array == 0 then
+        return {}
+    end
+
+    -- Extract headers from the first item
+    local headers = {}
+    for key, _ in pairs(json_array[1]) do
+        table.insert(headers, key)
+    end
+
+    -- Sort headers alphabetically for consistent order (optional)
+    table.sort(headers)
+
+    -- Prepare the flat table with headers as the first row
+    local flat_table = { headers }
+
+    -- Add each object's values in header order
+    for _, obj in ipairs(json_array) do
+        local row = {}
+        for _, key in ipairs(headers) do
+            local value = obj[key]
+            table.insert(row, tostring(value or ""))
+        end
+        table.insert(flat_table, row)
+    end
+
+    return flat_table
 end
 
 M.append_text = function(buffer, text)

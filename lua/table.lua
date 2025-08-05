@@ -9,6 +9,7 @@ M.Table = Object("Table")
 
 function M.Table:init()
     local file = M.read_json_file("./test.json")
+    local res = vim.fn.system("jc ls -l ./")
     Row.TableView:init(file)
 end
 
